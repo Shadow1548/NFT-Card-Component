@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+img[alt="Ruby"] {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+div.card {
+    width: 340px;
+    color: white;
+}
+.card {
+    background-color:hsl(216, 50%, 16%) ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+p {
+    font-size: 18px;
+}
+.ETH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
