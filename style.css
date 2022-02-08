@@ -5,16 +5,22 @@
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Cairo', sans-serif;
-    font-family: 'Lobster', cursive;
+    font-family:  cursive;
 }
+/* Ruby image */
 img[alt="Ruby"] {
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 15px;
 }
 div.card {
     width: 340px;
     color: white;
+}
+div.card p {
+    color:hsl(215, 51%, 70%);
 }
 .card {
     background-color:hsl(216, 50%, 16%) ;
@@ -22,11 +28,63 @@ div.card {
     margin: 20px;
     border-radius: 10px;
 }
-p {
+/* Paragraph Style  */
+.picture > p {
+    margin-top: 10px;
     font-size: 18px;
 }
-.ETH {
+div.child {
+    width: 300px;
+    height: 66px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
+}
+div.child .eth {
+    position: relative;
+    left: -4%;
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+/* icons style */
+div.child img[alt="clock"]{
+        position: relative;
+        right: -17px;
+    }
+img[alt="icon-ethereum"],
+img[alt="clock" ]{
+        block-size: 24px;
+    
+}
+img[title="eye"]{
+    position: absolute;
+    top: 26%;
+    left: 45%;
+}
+ img p:hover {
+    cursor: pointer;
+    filter: saturate(3);
+ }
+ /* profile style */
+ .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 66px;
+    padding: 5%;
+    margin: auto;
+ }
+ .profile >  img {
+     block-size: 2.5em;
+     border: 2px solid white;
+     border-radius: 50%;
+ }
+.profile > p {
+    font-size: 18px;
+}
+.profile > p > span {
+    color: white;
 }
