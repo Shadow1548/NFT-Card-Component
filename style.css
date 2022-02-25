@@ -7,8 +7,12 @@ body {
     font-family: 'Cairo', sans-serif;
     font-family:  cursive;
 }
+
+/* Mobile */
+
 /* Ruby image */
-img[alt="Ruby"] {
+.Ruby {
+    position: relative;
     width: 300px;
     height: 300px;
     border-radius: 10px;
@@ -50,23 +54,19 @@ div.child .eth {
 }
 /* icons style */
 div.child img[alt="clock"]{
-        position: relative;
-        right: -17px;
-    }
+    position: relative;
+    right: -17px;
+}
 img[alt="icon-ethereum"],
 img[alt="clock" ]{
-        block-size: 24px;
-    
+    block-size: 24px;
 }
-img[title="eye"]{
-    position: absolute;
-    top: 26%;
-    left: 45%;
-}
- img p:hover {
-    cursor: pointer;
-    filter: saturate(3);
- }
+/* End Icons Style */
+/* Start Overlay */
+
+
+
+
  /* profile style */
  .profile {
     display: flex;
@@ -88,3 +88,5 @@ img[title="eye"]{
 .profile > p > span {
     color: white;
 }
+
+
